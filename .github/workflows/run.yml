@@ -3,6 +3,9 @@ run-name: idk
 on:
   push:
 
+env:
+  FORCE_COLOR: "1"
+
 jobs:
   test_color_output:
     runs-on: ubuntu-latest
